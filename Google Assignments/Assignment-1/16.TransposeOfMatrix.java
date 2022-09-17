@@ -5,7 +5,7 @@ class Main {
     int row=sc.nextInt();
     int col=sc.nextInt();
     int matrix[][]=new int[row][col];
-    int transpose[][]=new int[row][col];
+    int transpose[][]=new int[col][row];
     for(int i=0;i<row;i++){
       for(int j=0;j<col;j++){
         matrix[i][j]=sc.nextInt();
@@ -24,12 +24,12 @@ class Main {
     }
   }
 }
- /*input : 3 3
-          1 2 3 
-          4 5 6
+ /*input : 3 3         2 3
+          1 2 3        1 2 3
+          4 5 6        4 5 6
           7 8 9
    output:
-        1 4 7
-        2 5 8
-        3 6 9 */
+        1 4 7          1 4
+        2 5 8          2 5 
+        3 6 9          3 6    */
           

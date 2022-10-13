@@ -1,3 +1,5 @@
+      //Merge Sort 
+   
 class Solution {
     public int[] sortArray(int[] nums) {
        int len=nums.length;
@@ -36,7 +38,7 @@ class Solution {
         System.arraycopy(temp,0,nums,l,r-l+1);
     }
 }
-
+/*
 Example 1:
 Input: nums = [5,2,3,1]
 Output: [1,2,3,5]

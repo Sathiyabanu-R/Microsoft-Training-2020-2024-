@@ -1,8 +1,8 @@
 class Solution {
     public int getSum(int a, int b) {
        while(b!=0){
-           int temp=(a&b)<<1;   // and operater and shift 1.
-           a=a^b;   // ^ -> xor operater
+           int temp=(a&b)<<1;   // and operator and shift 1.
+           a=a^b;   // ^ -> xor operator
            b=temp;
        } 
         return a;
